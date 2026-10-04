@@ -276,3 +276,13 @@ local Button = MainTab:CreateButton({
   loadstring(game:HttpGet("https://rawscripts.net/raw/Fisch-Blackhub-Best-Undetected-Script-53591"))()
    end,
 })
+
+local MainTab = Window:CreateTab("99 Days", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local Button = MainTab:CreateButton({
+   Name = "99 Days Script",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/loader.lua", true))()
+   end,
+})
