@@ -293,6 +293,7 @@ local MainSection = MainTab:CreateSection("Main")
 local Button = MainTab:CreateButton({
    Name = "Blox Fruit Script",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NeroHubClub/AutoMythicFruitFinder/refs/heads/main/NeroHubFruitFinder"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
+  
    end,
 })
