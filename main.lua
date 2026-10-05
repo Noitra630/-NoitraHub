@@ -288,8 +288,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/m
 })
 
 local MainTab = Window:CreateTab("🍈Blox Fruit🍈", nil) -- Title, Image
-local MainSection = 
-MainTab:CreateSection("Main")
+local MainSection = MainTab:CreateSection("Main")
 
 local Button = MainTab:CreateButton({
    Name = "Script blox",
