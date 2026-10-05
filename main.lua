@@ -290,9 +290,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/m
 local MainTab = Window:CreateTab("🍈Blox Fruit🍈", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
-local Button = MainTab:CreateButton({
-   Name = "Script blox",
+local Button = Tab:CreateButton({
+   Name = "Blox Fruit Script",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
+   -- The function that takes place when the button is pressed
    end,
 })
