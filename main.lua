@@ -291,8 +291,8 @@ local MainTab = Window:CreateTab("🍈Blox Fruit🍈", nil) -- Title, Image
 local MainSection = 
 MainTab:CreateSection("Main")
 
-local Button = Tab:CreateButton({
-   Name = "Button Example",
+local Button = MainTab:CreateButton({
+   Name = "Script blox",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
    end,
