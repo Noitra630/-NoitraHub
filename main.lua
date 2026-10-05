@@ -286,3 +286,14 @@ local Button = MainTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/loader.lua", true))()
    end,
 })
+
+local MainTab = Window:CreateTab("🍈Blox Fruit🍈", nil) -- Title, Image
+local MainSection = 
+MainTab:CreateSection("Main")
+
+local Button = Tab:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
+   end,
+})
