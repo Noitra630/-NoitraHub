@@ -290,7 +290,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/m
 local MainTab = Window:CreateTab("🍈Blox Fruit🍈", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
-local Button = Tab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Blox Fruit Script",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NeroHubClub/AutoMythicFruitFinder/refs/heads/main/NeroHubFruitFinder"))()
