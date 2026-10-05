@@ -293,6 +293,6 @@ local MainSection = MainTab:CreateSection("Main")
 local Button = Tab:CreateButton({
    Name = "Blox Fruit Script",
    Callback = function()
-   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NeroHubClub/AutoMythicFruitFinder/refs/heads/main/NeroHubFruitFinder"))()
    end,
 })
