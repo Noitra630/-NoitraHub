@@ -291,7 +291,7 @@ local MainTab = Window:CreateTab("🍈Blox Fruit🍈", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 local Button = MainTab:CreateButton({
-   Name = "Blox Fruit Script",
+   Name = "Blox Fruit",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
   
